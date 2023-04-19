@@ -15,3 +15,8 @@ run a post on a login form
 k6 run --vus 10 --duration 10s test4.js
 ```
 
+a test that slowly increases from 0 to 10000 virtual users lasts 2 minutes total
+```
+k6 run  test4.js
+```
+
